@@ -1,12 +1,31 @@
-require connection with tomcat
+# CustomerManagement
 
-New Project -> Java with Maven -> web Application
+![Alt text](/image/1.PNG?raw=true "Optional Title")
+![Alt text](/image/2.PNG?raw=true "Optional Title")
 
-Web Pages (Folder)  add - > WEB-INF
+## Java, Spring, Hibernate
 
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>5.2.8.RELEASE</version>
-        </dependency>
+## How to run it (NetBeans)
+
+###### Prerequisite
+ 
+1 Tomcat 
+
+2 MySql Database
+
+###### Installation
+
+1 Create Maven Project in NetBeans
+
+2 src folder of Maven project, copy (above) src folder.
+
+Web Pages and Source Packages will look like the image
+
+![Alt text](/image/4.PNG?raw=true "Optional Title")
+![Alt text](/image/3.PNG?raw=true "Optional Title")
+
+3 add dependency ( copy Dependency.md ) in pom.xml
+
+4 Run run.SQL file (sql Folder) in MySql Database
+
+5 Run the Maven Project
