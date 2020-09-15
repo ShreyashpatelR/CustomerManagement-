@@ -28,4 +28,6 @@ Web Pages and Source Packages will look like the image
 
 4 Run run.SQL file (sql Folder) in MySql Database
 
-5 Run the Maven Project
+5 update MySql detail in spring-mvc-crud-demo-servlet.xml
+
+6 Run the Maven Project
