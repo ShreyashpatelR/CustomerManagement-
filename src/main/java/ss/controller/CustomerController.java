@@ -36,7 +36,7 @@ public class CustomerController {
     
     @PostMapping("/saveCustomer")
     public String saveCustomer(@ModelAttribute("customer") Customer theCustomer){
-        System.out.println(" ---------------=-----------==-----------=-"+theCustomer.toString());
+        //System.out.println(" ---------------=-----------==-----------=-"+theCustomer.toString());
             
         customerService.saveCustomer(theCustomer);
         return "redirect:/customer/list";   
